@@ -42,6 +42,19 @@ class Transliterate {
 
         return mb_strtolower($new);
     }
+    
+    /**
+     * @param $str
+     * @return bool
+     */
+    public static function hasNonLatin($str) {
+        preg_match('/(?=\pL)(?![a-zA-Z])/s', $str, $matches);
+        if (!empty($matches)) {
+            return true;
+        }
+
+        return false;
+    }
 
 }
 ?>
