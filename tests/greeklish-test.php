@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../Transliterate.php';
 
-use Transliterate\Transliterate;
+use Prskvs\Transliterate;
 
 $str = 'Γειά σου κόσμε! Αυτό είναι ένα παράδειγμα ώστε να δοκιμάσουμε τα greeklish. Εν το μεταξύ, οι λέξεις είναι "ΑνΌμοΙΕς"!';
 $expected_str = 'Geia sou kosme! Auto einai ena paradeigma oste na dokimasoume ta greeklish. En to metaksy, oi lekseis einai "AnOmoIEs"!';

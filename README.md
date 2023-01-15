@@ -11,7 +11,7 @@ Transliterate greek letters to latin
 ## Usage
 
 ```php
-use Transliterate\Transliterate;
+use Prskvs\Transliterate;
 
 // Detect non lattin letters
 if (Transliterate::hasNonLatin($text)) {

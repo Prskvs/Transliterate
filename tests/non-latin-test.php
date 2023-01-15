@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../Transliterate.php';
 
-use Transliterate\Transliterate;
+use Prskvs\Transliterate;
 
 $str = 'Hello κόσμε!';
 

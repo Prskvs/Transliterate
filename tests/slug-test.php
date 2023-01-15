@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../Transliterate.php';
 
-use Transliterate\Transliterate;
+use Prskvs\Transliterate;
 
 $str = 'Αυτό το κείμενο @$& ___+
 πρέπει να μην <περιέχει> ΚΑΝΕΝΑ ΚΕΦΑλαίο, κενό   ή π3ρ!εργ0χαρακτήρ@!.';

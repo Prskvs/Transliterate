@@ -1,6 +1,6 @@
 <?php
 
-namespace Transliterate;
+namespace Prskvs;
 
 class Transliterate {
 
